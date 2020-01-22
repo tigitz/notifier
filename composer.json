@@ -27,10 +27,12 @@
             "/Tests/"
         ]
     },
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "5.1-dev"
         }
+    },
+    "require-dev": {
+        "rector/rector-prefixed": "dev-master@dev"
     }
 }

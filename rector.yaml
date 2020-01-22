@@ -1,0 +1,12 @@
+parameters:
+    sets:
+        - 'code-quality'
+        - 'php71'
+        - 'celebrity'
+        - 'dead-code'
+        - 'dead-classes'
+        - 'type-declaration'
+        - 'solid'
+        - 'php72'
+    exclude_paths:
+        - 'vendor/*'
